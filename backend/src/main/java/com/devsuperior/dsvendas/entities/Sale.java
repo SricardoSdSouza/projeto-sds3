@@ -29,8 +29,7 @@ public class Sale {
 	public Sale() {
 	}
 
-	public Sale(Long id, Integer visited, Integer deals, Double amount, LocalDate date, Seller seller) {
-		
+	public Sale(Long id, Integer visited, Integer deals, Double amount, LocalDate date, Seller seller) {		
 		this.id = id;
 		this.visited = visited;
 		this.deals = deals;
@@ -86,7 +85,5 @@ public class Sale {
 	public void setSeller(Seller seller) {
 		this.seller = seller;
 	}
-	
-
-	
+		
 }

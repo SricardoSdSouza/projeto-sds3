@@ -17,8 +17,7 @@ public class SaleDTO {
 	public SaleDTO() {
 	}
 
-	public SaleDTO(Long id, Integer visited, Integer deals, Double amount, LocalDate date, SellerDTO seller) {
-		
+	public SaleDTO(Long id, Integer visited, Integer deals, Double amount, LocalDate date, SellerDTO seller) {	
 		this.id = id;
 		this.visited = visited;
 		this.deals = deals;

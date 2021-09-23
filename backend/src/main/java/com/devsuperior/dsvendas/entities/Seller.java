@@ -19,7 +19,7 @@ public class Seller {
 		@GeneratedValue(strategy =GenerationType.IDENTITY)
 		private Long id;
 		private String name;
-		
+			
 		@OneToMany(mappedBy = "seller")
 		private List<Sale> sales = new ArrayList<>();
 		

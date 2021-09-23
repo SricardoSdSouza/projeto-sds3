@@ -19,8 +19,8 @@ public class SellerControler {
 	private SellerService service;
 	
 	@GetMapping
-	public ResponseEntity<List<SellerDTO>> findAll() {
+	public ResponseEntity<List<SellerDTO>> findAll(){
 		List<SellerDTO> list = service.findAll();
 		return ResponseEntity.ok(list);
-	}
+ }
 }
